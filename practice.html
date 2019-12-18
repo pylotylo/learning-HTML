@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello World</title>
+	</head>
+	<body>
+		<!-- this is a comment -->
+		<h1>this is a heading</h1>
+		<h2>this is another heading</h2>
+		<h3>this is another heading</h3>
+		<h4>this is another heading</h4>
+		<h5>this is another heading</h5>
+
+		<p>
+			this is going to be a very big paragraph, so big and <strong>strong</strong>
+			full of calcium <em>rich</em> milk from <a href="https://www.ucdavis.edu/one-health/how-cows-stomach-could-help-your-health-and-environment/" target="_blank">cow</a> . cows are beutiful and
+			large such as this paragraph
+		</p>
+
+		<!-- heres an unordered list -->
+		<ul>
+			<li>item 1</li>
+			<li>item 2</li>
+			<li>item 3</li>
+		</ul>
+
+		<!-- heres an ordered list -->
+		<ol>
+			<li>item 1</li>
+			<li>item 2</li>
+			<li>item 3</li>
+		</ol> 
+		<!-- heres a table -->
+		<!-- use these for table data only, dont use these for layout -->
+		<table>
+			<thead>
+				<tr>
+					<th>alias</th> 
+					<th>favorite color</th>
+					<th>length</th>
+				</tr>
+			</thead>
+			<tbody>
+				<td>pony teppertini</td>
+				<td>melon</td>
+				<td>72</td>
+			</tbody>
+			<tbody>
+				<td>sammy salami</td>
+				<td>building</td>
+				<td>4</td>
+			</tbody><tbody>
+				<td>krungel scrogis</td>
+				<td>green</td>
+				<td>pi</td>
+			</tbody>
+		</table>
+
+		<br> <!-- line break tag -->
+			<hr> <!-- horizontal rule tag -->
+			<br>
+
+		<!-- heres a form -->
+		<form action="something.js" method="POST">
+			<!-- POST method adds data to a database on the server side
+				as opposed to other methods like GET which submits data
+				into the URL (used for something like a search result).
+				read more on HTML methods -->
+			<div>
+			<label>First Name</label>
+			<input type="text" name="firstName"
+			placeholder="your name here">
+			</div>
+				<br>
+			<div>
+			<label>Last Name</label>
+			<input type="text" name="lastName">
+			</div>
+				<br>
+			<div>
+			<label>email</label>
+			<input type="email" name="email">
+			</div>
+				<br>
+			<div>
+			<label>message</label>
+			<textarea name="message"></textarea> 
+			</div>
+				<br>
+			<div>
+			<label>gender pronouns</label>
+				<select name="pronouns"> 
+					<option value="they/them">they/them</option>
+					<option value="it/it">it/it</option>
+					<option value="frigg/off">frigg/off</option>
+				</select>
+			</div>
+				<br>
+			<div>
+			<label>age</label>
+			<input type="number" name="age"
+			value="21">
+			</div>
+				<br>
+			<div>
+			<label>birthday:</label>
+			<input type="date" name="birthday"> <!-- check this -->
+			</div>
+				<br>
+			<input type="submit" name="submit"
+			value="submit">
+		</form>
+
+			<br>
+
+		<!-- heres a button that does nothing -->
+		<button>click me</button>
+			<br>
+
+		<!-- heres and image -->
+		<a href="sample images/god4.jpeg">
+		<img src="sample images/god4.jpeg" alt="god4" height="300" >
+		</a>
+		<!-- pulls image "god4" from "sample images" folder
+				the image (if only one) and/or the folder that the
+				image(s) are in must be located in the same folder that
+				the html document is in. --> 
+		<!-- heres some quotations -->
+		<blockquote cite="https://www.ucdavis.edu/one-health/how-cows-stomach-could-help-your-health-and-environment/">
+			While the contents of a cow’s stomach may not be something most of us care to think about
+		</blockquote>
+			<br> 
+		<p>Looking for people who are <abbr title="always on watch">AOW</abbr></p>
+			<br>
+		
+	</body>
+</html>
