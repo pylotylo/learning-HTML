@@ -1,0 +1,79 @@
+body {
+    background-color: #FE8267;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #F8F04E;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+#bolt {
+    width: 49%;
+    float: left;
+    padding-bottom: 15px;
+}
+
+#wall {
+    width: 49%;
+    float: right;
+    padding-bottom: 15px;
+}
+
+#taste {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+#door {
+    width: 49%;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#graffiti {
+    width: 49%;
+    float: right;
+    padding-top: 30px;
+}
+
+#puddle {
+    width: auto;
+    padding-bottom: 15px;
+}
+
+#factoryYard {
+    width: 49%;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+#window {
+    width: 49%;
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.listOfCategories {
+    border: 2px black double;
+}

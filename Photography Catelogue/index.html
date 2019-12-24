@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Photography Catelogue </title>
+    <link rel="stylesheet" type="text/css" href="photography.catelogue.css">
+    <!-- this is my attempt to add functionality to the search bar,
+        not sure that this is really the right way to go about this
+
+    <script type="application/javascript">
+        function searchFunction() {
+            var searchBar = document.getElementById('searchBar').innerHTML;
+
+            if (searchBar.value == industrial) {}
+    </script>
+-->
+</head>
+
+<body>
+    <div class="container">
+        <h1> Tyler's Photography Catelogue </h1>
+        <div id="searchBarDiv">
+            <form action="search.js" method="GET">
+                <label> Image Search </label>
+                <input id="searchBar" type="search" placeholder="Enter Keyword or Phrase" value="">
+                <input class="searchButton" type="button" name="findImages" value="Find Images">
+            </form>
+        </div>
+
+        <br>
+
+        <h2> Images </h2>
+
+        <a id="bolt" class="industrial" href="sample.photos/bolt.jpg">
+            <img src="sample.photos/bolt.jpg" alt="bolt" width="100%">
+        </a>
+
+        <a id="wall" class="art" href="sample.photos/wall.jpg">
+            <img src="sample.photos/wall.jpg" alt="wall" width="100%">
+        </a>
+
+        <br>
+
+        <a id="taste" class="art" href="sample.photos/graffiti1.jpg">
+            <img src="sample.photos/graffiti1.jpg" alt="graffiti" width="100%">
+        </a>
+
+        <br>
+
+        <a id="door" class="building" href="sample.photos/door.jpg">
+            <img src="sample.photos/door.jpg" alt="door" width="100%">
+        </a>
+
+        <a id="graffiti" class="art" href="sample.photos/graffiti2.jpg">
+            <img src="sample.photos/graffiti2.jpg" alt="graffiti" width="100%">
+        </a>
+
+        <br>
+
+        <a id="puddle" class="building" href="sample.photos/puddle.jpg">
+            <img src="sample.photos/puddle.jpg" alt="puddle" width="100%">
+        </a>
+
+        <br>
+
+        <a id="factoryYard" class="industrial" href="sample.photos/industry.jpg">
+            <img src="sample.photos/industry.jpg" alt="factory yard" width="100%">
+        </a>
+
+        <a id="window" class="building" href="sample.photos/window.jpg">
+            <img src="sample.photos/window.jpg" alt="window" width="100%">
+        </a>
+
+        <div id="listOfCategories">
+            <h3> Images by Category </h3>
+            <ul>
+                <li> <a href="industrial.html" target="_blank"> Industrial Images </a> </li>
+                <li> <a href="buildings.html" target="_blank"> Building Images </a> </li>
+                <li> <a href="art.html" target="_blank"> Art Images </a> </li>
+            </ul>
+        </div>
+    </div>
+    <!-- container end here -->
+</body>
+
+</html>
