@@ -6,7 +6,7 @@ in html docs. trying to go back to basics
 and start with simple JS functions. maybe 
 im missing something, probably, im an idiot.
 
-In the photography catelogue project, I've 
+In the photography catelogue folder, I've 
 been using what I learned from the html 
 and css tutorials on traversy media. I 
 may start a separate repository for that
